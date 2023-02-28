@@ -1,4 +1,6 @@
-export function rocket() {
-  newRocket = x + z;
-  return newRocket;
-}
+var Rocket = function (color, size) {
+  this.color = color;
+  this.size = size;
+};
+
+module.exports = Rocket;
